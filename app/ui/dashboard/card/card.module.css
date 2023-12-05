@@ -1,0 +1,31 @@
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    aspect-ratio: 4;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title{
+    color: gray;
+    font-size: 15px;
+}
+.count{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .container {
+      width: 100%;
+      aspect-ratio: auto; 
+    }
+  
+    .text {
+      gap: 20px; 
+    }
+  }

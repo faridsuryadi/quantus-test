@@ -1,0 +1,41 @@
+.container{
+    display: flex;  
+    background: #E8EBED;
+
+}
+
+.menu{
+    flex: 1;
+    border-right: 8px;
+    border-color: black ;
+}
+
+.content{
+    flex: 6;
+    padding: 20px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px; 
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  @media (max-width: 767px) {
+    .wrapper {
+      flex-direction: column; 
+    }
+  
+    .card {
+      flex-direction: row; 
+    }
+  }
+  

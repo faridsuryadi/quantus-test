@@ -1,0 +1,42 @@
+.container{
+    position:sticky;
+    border-right: solid #DDE0E4 ;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    padding: 20px;
+   
+}
+
+.top{
+    font-weight:600;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.list{
+  list-style: none;  
+ 
+}
+.text{
+    text-align: center;
+}
+.logoImg{
+    margin-top: 20px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.Logout{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}

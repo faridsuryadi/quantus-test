@@ -1,0 +1,34 @@
+.container{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    width: 80%;
+    color: #818896;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Red Hat Display";
+
+}
+.container:hover, .active{
+    background-color: #2B8FEB;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
